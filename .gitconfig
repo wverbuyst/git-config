@@ -1,0 +1,14 @@
+[user]
+	name = Willem
+	email =
+[core]
+	editor = code --wait
+[merge]
+  tool = code
+[mergetool "code"]
+  cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
+[pager]
+	branch = false
+	log = false
+[alias]
+	lolg = log --oneline --graph --decorate
